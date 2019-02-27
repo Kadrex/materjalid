@@ -3,7 +3,7 @@ Massiiv
 
 Massiiv (*array*) on järjestatud andmete kogum. Javas saab massiiv koosneda ainult sama tüüpi elementidest. 
 
-Iga element massiivis on nummerdatud. Esimese elemendi indeks on 0, teise elemendi indeks on 1 jne. Viimase elemendi indeks on pikkus - 1. Igale konkreetsele elemendile viitamiseks saab kasutada tema indeksit massiivis. Üldisemal juhul võib indekseid olla ka rohkem kui üks - sellisel juhul on tegemist mitmemõõtmelise massiiviga. Mitmemõõtmelise massivi juhul on massiivi elementideks omakorda massiivid.
+Iga element massiivis on nummerdatud. Esimese elemendi indeks on 0, teise elemendi indeks on 1 jne. Viimase elemendi indeks on massiivi pikkus - 1. Igale konkreetsele elemendile viitamiseks saab kasutada tema indeksit massiivis. Üldisemal juhul võib indekseid olla ka rohkem kui üks - sellisel juhul on tegemist mitmemõõtmelise massiiviga. Mitmemõõtmelise massivi juhul on massiivi elementideks omakorda massiivid.
 
 .. image:: /images/array.png
 
@@ -20,7 +20,7 @@ Kui me soovime näiteks luua täisarvude massiivi *someNumbers*, siis saaksime s
 
 Sellisel juhul on massiivi elemendi tüüp int (täisarv). Lisaks määratakse ka massiivi pikkus, milleks on 10 elementi, st reserveeritakse mälu massiivile. Esimene element on :code:`someNumbers[0]`. Esimese elemendi saaks väärtustada nii: :code:`someNumbers[0] = 5;`
 
-Peale täisarvude (*int*) massiivi on võimalik on deklareerida ka teisi tüüpi massiive:
+Peale täisarvude (*int*) massiivi on võimalik deklareerida ka teisi tüüpi massiive:
 
 .. code:: java
 
